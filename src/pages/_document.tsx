@@ -8,8 +8,8 @@ class MyDocument extends Document {
         <Head>
           <meta name="description" content="OneDrive Vercel Index" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+          <link rel="preconnect" href="https://fonts.googleapis.cn" />
+          <link rel="preconnect" href="https://fonts.gstatic.cn" crossOrigin="" />
           {siteConfig.googleFontLinks.map(link => (
             <link key={link} rel="stylesheet" href={link} />
           ))}
